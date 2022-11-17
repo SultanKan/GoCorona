@@ -389,7 +389,7 @@
    &__content {
       flex: 0 1 50%;
       @media (max-width: 767.98px) {
-         margin:0px 0px 30px 0px;
+         margin: 0px 0px 30px 0px;
       }
    }
 
@@ -453,3 +453,229 @@
 }
 
 // =========================================================
+
+// ======================statistics==============================
+
+.experts {
+   background-color: #fafbfb;
+   padding: 103px 0px 116px 0px;
+   @media (max-width: 767.98px) {
+      padding: 80px 0px 30px 0px;
+   }
+   &__container {
+   }
+
+   &__statistics {
+   }
+}
+.statistics-experts {
+   max-width: 655px;
+   margin: 0 auto;
+   position: relative;
+
+   &__body {
+      position: relative;
+      z-index: 2;
+      background-color: #fff;
+      box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+      border-radius: 16px;
+      margin: 0px 0px 80px 0px;
+      @media (max-width: 767.98px) {
+         margin: 0px 0px 50px 0px;
+      }
+   }
+
+   &__decor {
+      position: absolute;
+      background-color: #ec5863;
+      border-radius: 30px;
+      &_1 {
+         width: 65px;
+         height: 65px;
+         transform: rotate(-30deg);
+         bottom: -21px;
+         left: -21px;
+         border-radius: 16px;
+      }
+
+      &_2 {
+         width: 97px;
+         height: 97px;
+         right: 50%;
+         top: -40px;
+         transform: rotate(105deg);
+      }
+
+      &_3 {
+         width: 128px;
+         height: 128px;
+         right: -55px;
+         top: -0px;
+         transform: rotate(-30deg);
+      }
+   }
+}
+.body-statistics-experts {
+   padding: 25px 80px;
+   display: flex;
+   align-items: center;
+   @media (max-width: 767.98px) {
+      padding: 25px;
+   }
+   @media (max-width: 479.98px) {
+      flex-direction: column;
+   }
+   &__item {
+      flex: 0 1 25%;
+      text-align: center;
+      &:last-child {
+         flex: 0 1 50%;
+      }
+      &:not(:last-child) {
+         margin: 0px 0px 15px 0px;
+      }
+   }
+
+   &__value {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.2;
+      letter-spacing: 1px;
+      color: #ec5863;
+      margin: 0px 0px 5px 0px;
+   }
+
+   &__text {
+      font-weight: bold;
+      font-size: 11px;
+      line-height: 1.8;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #000;
+   }
+}
+
+// =========================================================
+
+.experts {
+   &__body {
+      display: flex;
+      align-items: center;
+      @media (max-width: 767.98px) {
+         flex-direction: column;
+         align-items: stretch;
+      }
+   }
+
+   &__content {
+      flex: 0 1 50%;
+      padding: 0px 20px 0px 0px;
+      @media (max-width: 767.98px) {
+         padding: 0;
+         margin: 0px 0px 30px 0px;
+      }
+   }
+
+   &__block-text {
+      max-width: 393px;
+   }
+
+   &__video {
+      flex: 0 1 50%;
+      position: relative;
+      padding: 0px 0px 30% 0px;
+      box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+      border-radius: 8px;
+      overflow: hidden;
+      iframe {
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         top: 0;
+         left: 0;
+         object-fit: cover;
+      }
+      @media (max-width: 767.98px) {
+         padding: 0px 0px 58% 0px;
+      }
+   }
+}
+
+.block-text-center {
+   text-align: center;
+}
+
+.block-text__text_mw {
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+.healthcare {
+   padding: 75px 30px;
+   &__container {
+   }
+
+   &__block-text {
+      margin: 0px 0px 45px 0px;
+   }
+   &__items {
+      display: flex;
+      max-width: 980px;
+      margin: 0 auto;
+      gap: 72px;
+      height: 100%;
+      @media (max-width:767.98px) {
+         flex-direction: column;
+      }
+   }
+
+   &__item {
+      flex: 0 1 33.3333%;
+   }
+}
+
+.item-healthcare {
+   background: #ffffff;
+   box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 36px 17px;
+   text-align: center;
+   &__icon {
+      margin: 0px 0px 58px 0px;
+   }
+
+   &__title {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 138.5%;
+      color: #000;
+      margin: 0px 0px 4px 0px;
+   }
+
+   &__text {
+      line-height: 138.5%;
+   }
+}
+
+
+.footer {
+   padding: 45px 0;
+   &__container {
+   }
+
+   &__items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      @media (max-width:767.98px) {
+         flex-direction: column;
+      }
+   }
+
+   &__item {
+   }
+}
